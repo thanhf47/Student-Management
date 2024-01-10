@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/mssv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="20215640"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="Nguyen Tien Thanh"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="thanh.nt215640@sis.hust.edu.vn"
+        android:textSize="16dp"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>
